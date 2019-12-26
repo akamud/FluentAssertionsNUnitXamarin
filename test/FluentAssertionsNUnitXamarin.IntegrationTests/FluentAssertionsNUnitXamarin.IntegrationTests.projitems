@@ -10,8 +10,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Specs\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Suporte\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Specs\Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Suporte\NullConfigurationStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Suporte\TesteBase.cs" />
   </ItemGroup>
 </Project>
