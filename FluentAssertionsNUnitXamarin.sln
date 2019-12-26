@@ -1,11 +1,15 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsNUnitXamarin.Android", "FluentAssertionsNUnitXamarin.Android\FluentAssertionsNUnitXamarin.Android.csproj", "{80C6AC6B-F384-47CC-8AF0-3CBD69C91F67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsNUnitXamarin.Android", "src\FluentAssertionsNUnitXamarin.Android\FluentAssertionsNUnitXamarin.Android.csproj", "{80C6AC6B-F384-47CC-8AF0-3CBD69C91F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsNUnitXamarin.iOS", "FluentAssertionsNUnitXamarin.iOS\FluentAssertionsNUnitXamarin.iOS.csproj", "{15BC3201-7E2E-4522-A58D-A137055D845A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsNUnitXamarin.iOS", "src\FluentAssertionsNUnitXamarin.iOS\FluentAssertionsNUnitXamarin.iOS.csproj", "{15BC3201-7E2E-4522-A58D-A137055D845A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsNUnitXamarin", "FluentAssertionsNUnitXamarin\FluentAssertionsNUnitXamarin.csproj", "{9FBA584F-E56A-497A-BCEC-30F4411F028F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsNUnitXamarin", "src\FluentAssertionsNUnitXamarin\FluentAssertionsNUnitXamarin.csproj", "{9FBA584F-E56A-497A-BCEC-30F4411F028F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E7A4C29F-DAAA-48BC-9B65-CA5022740712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7F1EE37F-E2A5-49AD-9EFC-F9C3464FADD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,5 +57,10 @@ Global
 		{9FBA584F-E56A-497A-BCEC-30F4411F028F}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{9FBA584F-E56A-497A-BCEC-30F4411F028F}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{9FBA584F-E56A-497A-BCEC-30F4411F028F}.Release|iPhone.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FBA584F-E56A-497A-BCEC-30F4411F028F} = {E7A4C29F-DAAA-48BC-9B65-CA5022740712}
+		{80C6AC6B-F384-47CC-8AF0-3CBD69C91F67} = {E7A4C29F-DAAA-48BC-9B65-CA5022740712}
+		{15BC3201-7E2E-4522-A58D-A137055D845A} = {E7A4C29F-DAAA-48BC-9B65-CA5022740712}
 	EndGlobalSection
 EndGlobal
